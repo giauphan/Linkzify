@@ -27,7 +27,19 @@
 .App-link {
   color: #61dafb;
 }
-
+.template{
+  width: 100%;
+  background-color: #61dafb;
+  height: 400px;
+}
+.block{
+  width: 100px;
+  height: 50px;
+  background-color: #61dafb;
+}
+.border-custom{
+  border: 1px solid rgba(65, 178, 126, 0.55)!important;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
