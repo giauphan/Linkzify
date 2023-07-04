@@ -8,21 +8,21 @@ function App() {
       <nav class="navbar bg-body-tertiary px-5">
         <div class="">
           <a class="navbar-brand">Logo</a>
-          
+
         </div>
         <div class="d-flex" role="search">
-           sdasd
-          </div>
+          sdasd
+        </div>
       </nav>
       <div class="row mt-5"></div>
       <div class="container ">
         <div class="row mt-5">
-          <div class="col-4 mr-5" >
+          <div class="col-4 mr-5 phone" >
             <div class="d-grid gap-2 template">
             </div>
           </div>
-         
-          <div class="col-7 m-auto">
+
+          <div class="col-7 m-auto border border-1 border-custom">
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
               <div class="container-fluid">
                 <a class="navbar-brand" href="/">Design</a>
@@ -57,7 +57,6 @@ function App() {
     </Router>
   );
 }
-
 function Page2() {
   return (
     <h1>page2</h1>
@@ -72,35 +71,46 @@ function Home() {
         <h1>Template</h1>
         <div class="mt-3"></div>
         <div class="d-flex justify-content-center flex-wrap">
-          <div class="block col-4 m-2"></div>
-          <div class="block col-4 m-2"></div>
-          <div class="block col-4 m-2"></div>
-          <div class="block col-4 m-2"></div>
-       
+          <div class="col-8 row">
+            <div class="block col-4 m-2"></div>
+            <div class="block col-4 m-2"></div>
+            <div class="block col-4 m-2"></div>
+            <div class="block col-4 m-2"></div></div>
+
         </div>
         <div class="d-flex justify-content-center flex-wrap">
-          <div class="block col-4 m-2"></div>
-          <div class="block col-4 m-2"></div>
-          <div class="block col-4 m-2"></div>
-          <div class="block col-4 m-2"></div>
+          <div class="col-8 row">
+            <div class="block col-4 m-2"></div>
+            <div class="block col-4 m-2"></div>
+            <div class="block col-4 m-2"></div>
+            <div class="block col-4 m-2"></div></div>
         </div>
         <h3>Color: </h3>
+        <div class="d-flex justify-content-center"> <h3 class="col-8 m-2">Privacy: </h3></div>
         <div class="mt-3"></div>
-        <div class="d-flex justify-content-center flex-wrap">
-          <div class="block col-12 m-2"> <h3>Color: </h3></div>
-       
-          <div class="block col-4 m-2"></div>
-          <div class="block col-4 m-2"></div>
-          <div class="block col-4 m-2"></div>
-          <div class="block col-4 m-2"></div>
-       
+        <div class="d-flex justify-content-center  flex-wrap flex-colum">
+          <div class="col-8 d-flex flex-column mb-3">
+
+            <div class="input-group mb-3 col-2">
+              <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+              <span class="input-group-text" id="basic-addon2"><i class="bi bi-palette"></i></span>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" />
+              <label class="form-check-label" for="defaultCheck1">
+              Use color gradient
+              </label>
+            </div>
+            <div class="input-group mb-3 col-2">
+              <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+              <span class="input-group-text" id="basic-addon2"><input type="color"/></span>
+            </div>
+
+
+          </div>
+
         </div>
-        <div class="d-flex justify-content-center flex-wrap">
-          <div class="block col-4 m-2"></div>
-          <div class="block col-4 m-2"></div>
-          <div class="block col-4 m-2"></div>
-          <div class="block col-4 m-2"></div>
-        </div>
+
       </div>
       <div class="m-3"></div>
     </div>

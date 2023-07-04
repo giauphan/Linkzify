@@ -40,6 +40,9 @@
 .border-custom{
   border: 1px solid rgba(65, 178, 126, 0.55)!important;
 }
+.title_2{
+  text-align: left;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
